@@ -12,4 +12,5 @@ iris_df.dropna(how="all", inplace=True) # remove any empty lines
 
 #selecting only first 4 columns as they are the independent(X) variable
 # any kind of feature selection or correlation analysis should be first done on these
-iris_X=iris_df.iloc[:,[0,1,2,3]]
+iris_X=iris_df.iloc[:5,[0,1,2,3]]
+print(iris_X)
